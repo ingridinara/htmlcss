@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ingrid Inara" />
+    <meta
+      name="description"
+      content=" Beer & Fun Activities at Barcelona by Ingrid Inara"
+    />
+    <meta
+      name="keywords"
+      content="Barcelona, Beer, Fun, Activities, What to do, Where to go"
+    />
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>
+      Barcelona.Beer - Find out fun activities and places to taste a good local
+      beer
+    </title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
+    "
+    />
+    <!-- GOOGLE FONTS OPEN SANS CONDENSED -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONTS  BIO RHYME -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONTS  ROBOTO SLAB-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./IMG/LOGOIMAGES/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="upperHeaderNav">
+        <h2>¡Las Mejores Actividades de Tu Ciudad!</h2>
+      </div>
+
+      <nav class="bottomHeaderNav">
+        <div class="menu">
+          <ul class="nav-menu">
+            <li class="nav-item homeLink">
+              <a href="./index.html"
+                ><img
+                  class="logo"
+                  src="./IMG/LOGOIMAGES/logo_transparent.png"
+                  alt="Logo"
+              /></a>
+            </li>
+            <li class="nav-item intLink">
+              <a href="./newRating.html"
+                ><img class="icon pull" src="./IMG/WEBICONS/rating.svg" alt="Más" />
+                <p class="iconText">Nueva Valoración</p>
+              </a>
+            </li>
+            <li class="nav-item intLink">
+              <a href="./userReservations.html"
+                ><img
+                  class="icon pull"
+                  src="./IMG/WEBICONS/plusicon.svg"
+                  alt="reservation"
+                />
+                <p class="iconText">¡Haz tu Reserva!</p>
+              </a>
+            </li>
+            <li class="nav-item intLink section">
+              <button type="button" >
+                <a class="button" href="./userSignIn.html" >Iniciar Sesión 
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <main class="main">
+      <div class="portrait">
+        <h2>¿No sabes a dónde ir un Jueves por la tarde?</h2>
+        <h2>¿Te aburres un viernes por la noche?</h2>
+      </div>
+      <p>
+        Iusto assumenda nemo consequatur
+        esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Recusandae id, architecto facere omnis maxime voluptates illo corporis
+        quas, deserunt earum cum, reprehenderit eligendi aperiam laboriosam
+        similique? Temporibus Vel eveniet nobis, minus eligendi
+        reiciendis veritatis eius molestiae iure adipisci magnam inventore ipsa
+        tenetur iste culpa suscipit nulla animi perspiciatis rerum!
+      </p>
+      <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+      <hr />
+      <div class="father">
+        <div class="sons"><img class="pictures" src="./IMG/PHOTOS/bowlling.jpg" alt="jugar a los bolos">
+        <p class="activities">¡Juega a los bolos con tus amigos!</p>
+        <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+
+        </div>
+        <div class="sons"><img class="pictures" src="./IMG/PHOTOS/karaoke3girls.jpg" alt="karaoke con amigos">
+        <p class="activities">!Entona esta canción¡</p>
+        <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+
+        </div>
+        <div class="sons"><img class="pictures" src="./IMG/PHOTOS/petfriendly.jpg" alt="local pet-friendly">
+        <p class="activities">¡Mima a tu compañero fiel!</p>
+        <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+
+        </div>
+        <div class="sons"><img class="pictures" src="./IMG/PHOTOS/manreading.jpg" alt="local para leer">
+        <p class="activities">¿Un sitio tranquilo para leer?</p>
+        <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+
+        </div>
+        <div class="sons"><img class="pictures" src="./IMG/PHOTOS/culturalclub.jpg" alt="club cultural">
+        <p class="activities">¡Habla con gente cómo tú!</p>
+        <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+
+        </div>
+        <div class="sons"><img class="pictures" src="./IMG/PHOTOS/diana.jpg" alt="local con diana">
+       <p class="activities">¡Aciérta el blanco!</p>
+       <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+
+        </div>
+      </div>
+      <hr />
+      <div class="searchBar">
+        <h2 >¡Encuentra tú Actividad!</h2>
+      </div>
+      
+      
+      <div class="searcher">
+        <input class="searchTxt"
+          type="search"
+          id="search"
+          name="search"
+          size="30"
+          required
+          autofocus
+          placeholder="¿Qué actividad buscas?"
+        />
+        <a class="searchBtn" href="#"></a>
+        <i class="fa fa-search"></i>
+      
+    </div>
+
+    <div class="bottomSearchbar">
+      <p class="dateLeft">
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" name="fecha" />
+      </p>
+      <p class="buttonRight">
+      <button type="buttonActivity" >
+        <a class="buttonActivity" href="#" > ¡Buscar! 
+      </button>
+      </p> 
+    </div>
+  
+    <hr />
+
+<div class="lastDivision">
+  <div class="filters">
+    <div>
+    <p class="aside">Música en directo</p>
+    <p>
+      <input type="checkbox" name="salsa" value="Salsa" /> Salsa
+      <br />
+      <input type="checkbox" name="flamenco" checked /> Flamenco
+      <br />
+      <input type="checkbox" name="reggae" /> Reggae
+      <br />
+      <input type="checkbox" name="pop" /> Pop
+      <br />
+      <input type="checkbox" name="anos80" /> Anos80
+    </p>
+  </div>
+  <div>
+    <p>Tipo de Cerveza</p>
+    <p class="aside">
+      <input type="checkbox" name="artesana" value="artesana" /> Artesana
+      <br />
+      <input type="checkbox" name="sin Alcohol" checked /> sin Alcohol
+      <br />
+      <input type="checkbox" name="sin Glutén" /> sin Glutén
+      <br />
+      <input type="checkbox" name="cana" /> Caña
+      <br />
+      <input type="checkbox" name="indiferente" /> Indiferente
+    </p>
+  </div>
+  <div>
+    <p class="aside">Edad média del público</p>
+    <p>
+      <input type="checkbox" name="1829" value="artesana" /> 18-29
+      <br />
+      <input type="checkbox" name="3039"  /> 30-39
+      <br />
+      <input type="checkbox" name="4059" /> 40-59
+      <br />
+      <input type="checkbox" name="60mas" /> 60+
+      <br />
+      <input type="checkbox" name="todaslasedades" checked /> Todas las edades
+    </p>
+    <p>
+      <button type="submit">Enviar</button>
+    </p>
+  </div>
+   
+
+  </div>
+
+  
+  
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11970.125268605292!2d2.16861770030488!3d41.40598371083574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2db868f209b%3A0xdd709ffba518881c!2sSagrada%20Familia%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1592910866552!5m2!1ses!2ses" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</div>
+<hr />
+<div class="boxSignUp">
+  <div class="titles">
+    <h3 class="signUp">Apúntate</h3>
+    <h3 class="signUp">¡Es Grátis!</h3>
+  </div>
+  <div class="mother">
+  <div class="daugtherRight">
+    <p >
+      <label for="introduceEmailorPh">
+      Introduce tú e-mail o Teléfono:</label
+      >
+      <input
+        type="text"
+        id="introduceEmailOrPh"
+        name="introduceEmailorPh"
+        size="30"
+        maxlength="10"
+        required
+        autofocus
+        placeholder="introduce tu e-mail o teléfono"
+      />
+    </p>
+  </div>
+
+  <div class="daugtherLeft">
+    <p>
+      <label for="createPassword">Crea tú contraseña:</label>
+      <input
+        type="createPassword"
+        id="createPassword"
+        name="createPassword"
+        size="30"
+        required
+        autofocus
+        placeholder="introduce tu contraseña"
+      />
+    </p>
+  </div>
+</div>
+  <div class="btnSingUp">
+    <button>
+      <a href="./userSession.html">¡Registrar Ahora¡</a>
+    </button>
+  </div>
+  
+  <div class="cousin">
+  <p><strong>¿Ya tienes cuenta?</strong></p>
+  <p><button><i>Iniciar Sesión</i></button></p>
+</div>
+</main>
+    <footer>
+      
+      <nav class="navUpperFooter">
+        <hr class="footerLine">
+        <div class="aboutUs">
+          <h4 class="footerTitle">Acerca De</h4>
+          <ul class="footerAboutUs">
+            <li>
+              <a rel="noopener noreferrer" target="_blank" href="./aboutUs.html"
+                >Quienes Somos</a
+              >
+            </li>
+            <li>
+              <a
+                rel="noopener noreferrer"
+                target="_blank "
+                href="./aboutUs.html"
+                >Nuestro Objetivo</a
+              >
+            </li>
+          </ul>
+        </div>
+        <hr class="footerLine">
+        <div class="owner">
+          <h4 class="footerTitle">¿Tienes un Local?</h4>
+          <ul class="footerOwnerSingIn">
+            <li>
+              <a
+                rel="noopener noreferrer"
+                target="_blank "
+                href="./ownerSignIn.html"
+                >Iniciar Sesión</a
+              >
+            </li>
+            <li>
+              <a
+                rel="noopener noreferrer"
+                target="_blank "
+                href="./ownerSignUp.html"
+                >Registra tu Local</a
+              >
+            </li>
+            <!-- cuando la web este hecha revisar estos 2 links arriba  -->
+          </ul>
+        </div>
+        <hr class="footerLine">
+        <div class="ourStore">
+          <h4 class="footerTitle">Nuestra Tienda</h4>
+          
+            <a class="footerOurStore" target="_blank " href= ./ourStore.html">Camisetas de la Web</a
+            >
+        
+        </div>
+        <hr class="footerLine">
+        <div class="ourStore">
+          <h4 class="footerTitle"> ¿Sabes beber con responsabilidad?</h4>
+          <h4 class="footerTitle"> ¡Haz tú test ya!</h4>
+          <div class="btnSingUp">
+          <button>
+            <a href="#">¡Clica Aquí¡</a>
+          </button>
+        </div>
+        </div>
+        <hr class="footerLine">
+        <div >
+          <h4 class="footerTitle">¿Eres Social?</h4>
+          <ul class="socialNetwork">
+            <li>
+              <a  
+                rel="noopener noreferrer"
+                target="_blank "
+                href="https://www.facebook.com/#"
+                ><img
+                  class="icon fbPull"
+                  src="./IMG/SOCIALNETWORK/logofacebook.svg"
+                  alt="Facebook Logo"
+                /> <p class=" snText">FaceBook</p></a
+              >
+            </li>
+            <li>
+              <a 
+                rel="noopener noreferrer"
+                target="_blank "
+                href="https://www.twitter.com/#"
+                ><img
+                  class="icon twPull"
+                  src="./IMG/SOCIALNETWORK/logotwitter.svg"
+                  alt="Twitter Logo"
+                /><p class=" snText">Twitter</p></a
+                ></a
+              >
+            </li>
+            <li>
+              <a  
+                rel="noopener noreferrer"
+                target="_blank "
+                href="https://www.instagram.com/#"
+                ><img
+                  class="icon instPull"
+                  src="./IMG/SOCIALNETWORK/logoinstagram.svg"
+                  alt="Instagram Logo"
+                /><p class=" snText">Instagram</p></a
+              >
+            </li>
+            <!-- En vez de img, cambiar las imagenes de las redes sociales para svg - path!!  -->
+          </ul>
+        </div>
+        <hr class="footerLine">
+        <div class="container">
+        <div class="left">
+          <ul class="language">
+            <li class="center">
+              <a rel="noopener noreferrer" target="_blank " href="#"
+                ><img
+                  class="icon languagePull"
+                  src="./IMG/WEBICONS/language.svg"
+                  alt=""
+                /> <p class="lang">language</p> </a
+              >
+              <ul class="chooseLang">
+                <li>Castellano</li>
+                <li>Inglés</li>
+                <li>Portugués</li>
+                <li>Italiano</li>
+                <li>Francés</li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Revisar los 2 menus de seleccion de idioma / moneda + si las
+          imagenes van a ser SVGs  -->
+        </div>
+        <div class="right">
+          <ul class="currency">
+            <li class="center">
+              <a rel="noopener noreferrer" target="_blank " href="#"
+                ><img
+                  class="icon currencyPull"
+                  src="./IMG/WEBICONS/countrycoin.svg"
+                  alt=""
+                /> <p class="currency">Moneda</p> </a
+              >
+              <ul class="chooseCurrency">
+                <li>EUR - €</li>
+                <li>USD - $</li>
+                <li>BRL - R$</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </nav>
+      <hr class="footerLine">
+      <nav class="navBottomFooter">
+        <ul class="bottomFooter">
+          <li>&#169; 2020 Barcelona.Beer, Inc. All rights reserved</li>
+          <li>
+            <a rel="noopener noreferrer" target="_blank" href="./legalText.html"
+              >Legal</a
+            >
+          </li>
+          <li>
+            <a rel="noopener noreferrer" target="_blank" href="./legalText.html"
+              >Privacidad</a
+            >
+          </li>
+          <li>
+            <a rel="noopener noreferrer" target="_blank" href="./legalText.html"
+              >Condiciones</a
+            >
+          </li>
+          <li>
+            <a rel="noopener noreferrer" target="_blank" href="./legalText.html"
+              >Cookies</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <hr class="footerLine">
+      <div class="chatBot">
+        <div class="chat">
+          <h4 class="chatMessage">¡Hola! ¿Te puedo Ayudar?</h4>
+        </div>
+        <div class="chatForm">
+          <textarea name="" id="" cols="40" rows="4"></textarea>
+        <p><button class="buttonFooter">send</button></p>
+           
+        </div>
+      </div>
+    </footer>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
